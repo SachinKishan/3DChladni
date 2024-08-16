@@ -21,6 +21,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['3-d-chladni.vercel.app', 'localhost', '127.0.0.1']
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
