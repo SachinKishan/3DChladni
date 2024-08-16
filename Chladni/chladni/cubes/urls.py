@@ -1,9 +1,8 @@
 # cubes/urls.py
 from django.urls import path
 
-from cubes.views import index
-
+from .views import generate_chladni_pattern
 
 urlpatterns = [
-    path('Chladni/chladni/cubes/templates', index),
+    path('chladni-pattern/', generate_chladni_pattern, name='chladni_pattern'),  
 ]
